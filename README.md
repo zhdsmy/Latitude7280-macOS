@@ -26,5 +26,44 @@ This repository contains a sample configuration to run macOS (Currently Mojave S
 * sd card
 * sleep
 
+# SSDT Hotpatch
+* SSDT-RMCF.aml
+* SSDT-ALC256.aml
+* SSDT-ALS0.aml
+* SSDT-BATT.aml
+* SSDT-BRT6.aml
+* SSDT-DBAT1.aml
+* SSDT-DMAC.aml
+* SSDT-GPRW.aml
+* SSDT-HDEF.aml
+* SSDT-I2C.aml
+* SSDT-LPC.aml
+* SSDT-MCHC.aml
+* SSDT-MEM2.aml
+* SSDT-PMCR.aml
+* SSDT-PNLF.aml
+* SSDT-PTSWAK.aml
+* SSDT-SMBUS.aml
+* SSDT-SMCD.aml
+* SSDT-UPRW.aml
+* SSDT-XHC.aml
+* SSDT-XOSI.aml
+
+# Kexts
+* ACPIBatteryManager.kext
+* AirportBrcmFixup.kext
+* AppleALC.kext
+* AppleBacklightFixup.kext
+* CPUFriend.kext & CPUFriendDataProvider.kext
+* FakeSMC.kext & FakeSMC_*.kext
+* IntelMausiEthernet.kext
+* Lilu.kext
+* USBInjectAll.kext
+* UVC2FaceTimeHD.kext
+* VoodooI2C.kext
+* VoodooI2CHID.kext
+* VoodooPS2Controller.kext
+* WhateverGreen.kext
+
 # Credits
 1. [the-darkvoid/XPS9360-macOS](https://github.com/the-darkvoid/XPS9360-macOS)
